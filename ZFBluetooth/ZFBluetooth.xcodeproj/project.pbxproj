@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC1517AF1BA02BC100BFDBE9 /* PeripheralInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1517AE1BA02BC100BFDBE9 /* PeripheralInfo.m */; };
 		CC25EBCA1B9C067800ACA37A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC25EBC91B9C067800ACA37A /* main.m */; };
 		CC25EBCD1B9C067800ACA37A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC25EBCC1B9C067800ACA37A /* AppDelegate.m */; };
 		CC25EBD01B9C067800ACA37A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC25EBCF1B9C067800ACA37A /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC1517AD1BA02BC100BFDBE9 /* PeripheralInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralInfo.h; sourceTree = "<group>"; };
+		CC1517AE1BA02BC100BFDBE9 /* PeripheralInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralInfo.m; sourceTree = "<group>"; };
 		CC25EBC41B9C067800ACA37A /* ZFBluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFBluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC25EBC81B9C067800ACA37A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC25EBC91B9C067800ACA37A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				CC25EBCC1B9C067800ACA37A /* AppDelegate.m */,
 				CC25EBCE1B9C067800ACA37A /* ViewController.h */,
 				CC25EBCF1B9C067800ACA37A /* ViewController.m */,
+				CC1517AD1BA02BC100BFDBE9 /* PeripheralInfo.h */,
+				CC1517AE1BA02BC100BFDBE9 /* PeripheralInfo.m */,
 				CC25EC071B9C072800ACA37A /* PeripheralViewContriller.h */,
 				CC25EC081B9C072800ACA37A /* PeripheralViewContriller.m */,
 				CC25EC091B9C072800ACA37A /* CharacteristicViewController.h */,
@@ -292,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC1517AF1BA02BC100BFDBE9 /* PeripheralInfo.m in Sources */,
 				CC25EC061B9C06DE00ACA37A /* BabyToy.m in Sources */,
 				CC25EC0B1B9C072800ACA37A /* PeripheralViewContriller.m in Sources */,
 				CC25EC021B9C06DE00ACA37A /* BabyBluetooth.m in Sources */,
@@ -498,6 +504,7 @@
 				CC25EBE91B9C067800ACA37A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC25EBEA1B9C067800ACA37A /* Build configuration list for PBXNativeTarget "ZFBluetoothTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				CC25EBEC1B9C067800ACA37A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
